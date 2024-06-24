@@ -1,0 +1,31 @@
+name: CivilizationLands
+version: 1.0
+api-version: 1.13
+main: de.sakros.civilizationlands.CivilizationLands
+depend: [Lands]
+
+commands:
+    color:
+      description: Changes the color of your team.
+      usage: /<command> color
+    tag:
+      description: Changes the tag of your team.
+      usage: /<command> tag
+    ally:
+      description: Allies the given Team.
+      usage: /<command> land
+    unally:
+      description: Unallies the given Team.
+      usage: /<command> land
+    createteam:
+      description: Re-creates the team in case it does not work correctly.
+      usage: /<command>
+    leaveteam:
+      description: Leaves the Tablist-Team.
+      usage: /<command>
+    jointeam:
+      description: Joins a Tablist-Team.
+      usage: /<command> <team>
+    score:
+      description: Gets the Score of a whole team.
+      usage: /<command> <team> <score>
